@@ -1,0 +1,86 @@
+
+/*
+#1 color = #4ACCD1;
+#2 color = #3fbbc0;
+*/
+/* ==== Google font ==== */
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,600,700,800|Roboto:400,500,700,900');
+/* --- pe-icon-7-stroke --- */
+
+
+/* ===========================
+--- Intro
+============================ */
+
+.intro {
+    width:100%;
+   
+	position:absolute;
+}
+
+.intro-content {
+	background: url("https://www.humanitas.net/content/uploads/2017/10/medical-care.jpg") no-repeat top center;
+    
+    padding-top:10% ;
+   
+  background-size: cover;
+}
+.dropbtn {
+  background-color:rgb(63, 187, 224);
+color: white;
+padding: 16px;
+font-size: 16px;
+border: none;
+cursor: pointer;
+}
+.dropbtn:hover, .dropbtn:focus {
+background-color:rgb(63, 187, 224);
+}
+.dropdown {
+position: relative;
+display: inline-block;
+margin-left:1300px;
+}
+
+.dropdown-content {
+  font-family: Arial, sans-serif;
+display: none;
+position: absolute;
+background-color: #f1f1f1;
+min-width: 160px;
+overflow: auto;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.dropdown-content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+.container{
+
+max-width:100%;
+}
+#p1{
+  font-family: Arial, sans-serif;
+  font-style: italic;
+  font-size: 24px;
+  padding-left: 20px;
+}
+
+.bg{
+  min-height: 100%;
+  margin: 0;
+ background-image: url("https://rohealthreview.ro/wp-content/uploads/2019/07/shutterstock_146147567.jpg");
+ background-size:cover;
+ background-repeat: no-repeat;
+  
+}
+
